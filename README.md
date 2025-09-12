@@ -9,7 +9,7 @@ Buatlah program Python :
 - Melakukan **Operasi Aritmatika** dan **Operasi Logika**.
 - Menerima **input** dari pengguna.
 
-## 👉 Link Tugas Pertemuan 1 : [Tugas Pertemuan 1](https://l1nk.dev/TugasPertemuan1)
+## 👉 Link Penugasan : [Tugas Pertemuan 1](https://l1nk.dev/TugasPertemuan1)
 
 ## ⚠️ Peringatan!
 
