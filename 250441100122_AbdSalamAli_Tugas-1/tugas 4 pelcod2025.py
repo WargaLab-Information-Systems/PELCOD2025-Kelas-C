@@ -1,0 +1,5 @@
+masa_studi = int(input("masukkan masa studi (semester): "))
+ipk = float (input("masukkan ipk:" ))
+ada_nilai_e = bool(int(input("apakah nilai ada nilai e?  (1 = ya, 0 = tidak):" )))
+lulus_tepat_waktu = (masa_studi <= 8) and (ipk >= 3.00) and (not ada_nilai_e)
+print("status lulus tepat waktu:", lulus_tepat_waktu)
