@@ -1,0 +1,1 @@
+(masa_studi <= 8) AND (ipk >= 3.00) AND (NOT ada_nilai_e)
