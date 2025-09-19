@@ -1,0 +1,68 @@
+#SOAL NO 1
+
+Tipe Data dan Penjelasannya
+Tipe data yang paling efisien dan sesuai untuk setiap variabel, beserta alasan pemilihannya:
+
+1. Nama lengkap mahasiswa
+•	Tipe Data: String
+•	Penjelasan: Nama lengkap terdiri dari serangkaian karakter, termasuk huruf dan spasi. Tipe data String (atau Teks) memang dirancang khusus untuk menyimpan dan mengelola data tekstual, menjadikannya pilihan yang paling tepat.
+
+2. Nomor Induk Mahasiswa (NIM)
+•	Tipe Data: String
+•	Penjelasan: Meskipun NIM hanya berisi angka, ia berfungsi sebagai identitas unik, bukan untuk perhitungan matematis. Menggunakan tipe data numerik seperti Integer bisa menghilangkan angka nol di depan (misalnya, NIM 0123 akan menjadi 123). Dengan String, format NIM akan tetap utuh dan akurat.
+
+3. Jumlah SKS yang sudah diambil
+•	Tipe Data: Integer
+•	Penjelasan: Jumlah SKS selalu berupa bilangan bulat positif. Tipe data Integer adalah pilihan yang paling efisien untuk menyimpan angka tanpa desimal, karena menggunakan memori yang lebih sedikit dan dioptimalkan untuk operasi matematika dasar pada bilangan bulat.
+
+4. Status keaktifan (aktif atau tidak aktif)
+•	Tipe Data: Boolean
+•	Penjelasan: Status ini hanya memiliki dua kemungkinan nilai: "aktif" atau "tidak aktif". Tipe data Boolean (atau Logika) dirancang untuk menyimpan nilai True (benar) atau False (salah), yang sangat ideal untuk merepresentasikan dua kondisi ini secara efisien.
+
+5. IPK saat ini
+•	Tipe Data: Float atau Double
+•	Penjelasan: Nilai IPK biasanya memiliki angka desimal (contoh: 3.85). Tipe data Float atau Double digunakan untuk menyimpan angka yang memiliki komponen pecahan. Double menawarkan presisi yang lebih tinggi dibandingkan Float, sehingga sangat cocok untuk perhitungan yang membutuhkan akurasi lebih detail.
+
+
+#SOAL NO 2
+
+Output Kode
+Berdasarkan kode di atas, berikut adalah hasil output yang akan ditampilkan:
+Total sementara: 55
+Total akhir: 75000
+
+Penjelasan
+Perbedaan output antara total_sementara dan total_akhir disebabkan oleh tipe data variabel jumlah_barang pada setiap tahap perhitungan.
+
+Perhitungan total_sementara
+Pada baris pertama, jumlah_barang diberi nilai "5". Tanda kutip ganda (" ") menunjukkan "5" adalah string (teks), bukan angka. Dalam Python, ketika mengalikan sebuah string dengan sebuah integer (angka), Python tidak melakukan perkalian matematis. Sebaliknya, Python akan mengulang string tersebut sebanyak jumlah angka yang dikalikan.
+Jadi, "5" dikali 2 akan menghasilkan string "55".
+
+Perhitungan total_akhir
+Sebelum baris ini, terdapat baris kode penting: jumlah_barang = int(jumlah_barang). Baris ini mengubah tipe data variabel jumlah_barang dari string ("5") menjadi integer (bilangan bulat) 5.
+Setelah konversi tipe data ini, perhitungan total_akhir dilakukan dengan mengalikan dua bilangan bulat: 5 dikali 15000. Hasilnya adalah 75000, yang merupakan total yang benar secara matematis.
+
+#SOAL NO 3
+
+Langkah 1: Perkalian
+Ekspresi awal: 10 + 5 * 2 - 12 / 6 % 3
+Pertama, kita selesaikan perkalian:
+5 * 2 = 10
+Ekspresi menjadi: 10 + 10 - 12 / 6 % 3
+Langkah 2: Pembagian dan Modulus (dari kiri ke kanan)
+Selanjutnya, kita selesaikan operasi pembagian dan modulus dari kiri.
+Pertama, lakukan pembagian:
+12 / 6 = 2
+Ekspresi menjadi: 10 + 10 - 2 % 3
+Kemudian, lakukan operasi modulus. Operator modulus (%) memberikan sisa dari hasil pembagian.
+2 % 3 = 2 (Karena 2 dibagi 3 hasilnya 0 dengan sisa 2)
+Ekspresi menjadi: 10 + 10 - 2
+Langkah 3: Penjumlahan dan Pengurangan (dari kiri ke kanan)
+Terakhir, kita selesaikan operasi penjumlahan dan pengurangan dari kiri.
+Pertama, lakukan penjumlahan:
+10 + 10 = 20
+Ekspresi menjadi: 20 - 2
+Kemudian, lakukan pengurangan:
+20 - 2 = 18
+Hasil Akhir
+Hasil akhir dari variabel hasil adalah 18.
