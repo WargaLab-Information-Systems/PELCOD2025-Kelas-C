@@ -1,0 +1,60 @@
+soal 1
+- Nama lengkap mahasiswa: Tipe data yang paling sesuai adalah  string . Tipe data  string  digunakan untuk menyimpan teks atau karakter. Nama lengkap mahasiswa terdiri dari karakter-karakter, sehingga tipe data ini paling sesuai.
+
+- Nomor Induk Mahasiswa (NIM): Tipe data yang paling sesuai adalah  string . Meskipun NIM terdiri dari angka, seringkali NIM diperlakukan sebagai teks karena tidak digunakan dalam perhitungan matematika. Tipe data  string  juga memungkinkan penyimpanan NIM dengan format yang berbeda (misalnya, dengan tanda hubung atau spasi).
+
+- Jumlah SKS yang sudah diambil: Tipe data yang paling sesuai adalah  integer . Tipe data  integer  digunakan untuk menyimpan bilangan bulat. Jumlah SKS selalu berupa bilangan bulat, sehingga tipe data ini paling sesuai.
+
+- Status keaktifan (aktif atau tidak aktif): Tipe data yang paling sesuai adalah  boolean . Tipe data  boolean  digunakan untuk menyimpan nilai kebenaran (True atau False). Status keaktifan hanya memiliki dua kemungkinan nilai, yaitu aktif atau tidak aktif, sehingga tipe data ini paling efisien.
+
+- IPK saat ini: Tipe data yang paling sesuai adalah  float . Tipe data  float  digunakan untuk menyimpan bilangan desimal. IPK biasanya memiliki nilai desimal (misalnya, 3.5), sehingga tipe data ini paling sesuai.
+
+soal 2
+Penjelasan mengapa outputnya bisa seperti itu:
+ 
+-  total_sementara :
+
+- Pada baris pertama,  jumlah_barang  diinisialisasi sebagai string "5".
+
+- Kemudian,  total_sementara  dihitung dengan mengalikan  jumlah_barang  (yang merupakan string "5") dengan 2. Dalam Python, ketika Anda mengalikan string dengan integer, string tersebut akan diulang sebanyak integer tersebut. Jadi,  "5" * 2  menghasilkan string "55".
+
+- Oleh karena itu, output untuk  Total sementara  adalah "55".
+
+-  total_akhir :
+
+- Sebelum menghitung  total_akhir ,  jumlah_barang  dikonversi menjadi integer menggunakan  int(jumlah_barang) . Sekarang,  jumlah_barang  memiliki nilai integer 5.
+
+- Kemudian,  total_akhir  dihitung dengan mengalikan  jumlah_barang  (yang sekarang integer 5) dengan  harga_satuan  (yang bernilai 15000). Jadi,  5 * 15000  menghasilkan 75000.
+
+- Oleh karena itu, output untuk  Total akhir  adalah 75000.
+ 
+Perbedaan antara  total_sementara  dan  total_akhir :
+ 
+Perbedaan utama terletak pada tipe data dari  jumlah_barang  saat perhitungan dilakukan. Pada perhitungan  total_sementara ,  jumlah_barang  masih berupa string, sehingga operasi perkalian menghasilkan pengulangan string. Sedangkan pada perhitungan  total_akhir ,  jumlah_barang  sudah dikonversi menjadi integer, sehingga operasi perkalian menghasilkan hasil perkalian matematika yang sebenarnya.
+
+soal 3
+Langkah-langkah Perhitungan:
+ 
+1. Perkalian dan Pembagian:
+
+-  5 * 2 = 10 
+
+-  12 / 6 = 2.0 
+
+- Ekspresi menjadi:  10 + 10 - 2.0 % 3 
+
+2. Modulo:
+
+-  2.0 % 3 = 2.0  (sisa hasil bagi 2.0 dibagi 3 adalah 2.0)
+
+- Ekspresi menjadi:  10 + 10 - 2.0 
+
+3. Penjumlahan dan Pengurangan:
+
+-  10 + 10 = 20 
+
+-  20 - 2.0 = 18.0 
+ 
+Jawaban Akhir:
+ 
+Hasil akhir dari operasi aritmatika tersebut adalah 18.0.
