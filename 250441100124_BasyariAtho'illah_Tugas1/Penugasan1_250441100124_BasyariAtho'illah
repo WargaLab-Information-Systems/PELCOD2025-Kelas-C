@@ -1,0 +1,49 @@
+Nama	: Basyari Atho’illah
+NIM	: 250441100124
+Plot	: C
+
+Soal 1
+1.	Data yang paling efisien dan sesuai untuk
+a.	Nama lengkap mahasiswa = String
+b.	NIM = String
+c.	Jumlah SKS yang diambil = Integer
+d.	Status Keaktifan = Boolean
+e.	IPK saat ini = Float
+
+2.	Alasan pemilihan tipe data tersebut
+a.	Karena nama lengkap terdiri dari huruf, mengandung spasi, dan panjangnya bervariasi
+b.	Karena integer biasanya digunakan untuk melakukan operator matematika, sedangkan NIM tidak digunakan untuk menghitung apapun.
+c.	Karena SKS berupa bilangan bulat, contoh matkul ALPRO mendapat 4 SKS
+d.	Karena bisa dianalogikan, aktif = 1/true sedangkan tidak aktif = 0/false.
+e.	Karena IPK memiliki  nilai pecahan, seperti 3.55 
+
+Soal 2
+1.	Output yang dihasilkan
+a.	Hasil dari Total sementara adalah 55
+b.	Hasil dari Total akhir 75000
+2.	Alasan jawaban No 1
+a.	Variabel total_sementara, itu memanggil jumlah_barang lalu dikalikan 2, sedangkan jumlah_barang itu tidak menggunakan tipe data integer, melainkan string. Jadi tinggal dikalikan 2 saja apa isi string tersebut.
+b.	Variabel total_akhir adalah jumlah_barang dikalikan dengan harga_satuan. Maka 5 dikalikan dengan 15000, maka hasilnya adalah 75000
+Soal 3
+Hasil dari 10+5*2-12/6%3 adalah
+-	Langkah awal, kita harus mengetahui bahwa operator perkalian dan pembagian harus didahulukan -> 5*2 = 10, lalu 12/6%3 =  2%3=2
+-	Setelah kita ketahui, lalu kita masukkan angka tersisa dan operator yang tersisa.
+-	10+10-2=18
+-	Maka hasil dari persoalan tersebut adalah 18
+
+Soal 4
+print("Yuk cek apakah kamu mahasiswa tepat waktu!")
+
+masa_studi = int(input("Masukkan Berapa semester masa studimu: "))
+ipk = float(input("Masukkan IPK: "))
+e = input("Apakah anda memiliki nilai E? (ya/tidak) ").lower()
+
+if masa_studi > 8:
+    print("Kamu Tidak lulus tepat waktu diakernakan masa studimu melebihi 8 semester")
+elif ipk < 3.00:
+    print("Kamu Tidak lulus tepat waktu dikarenakan IPK kamu dibawah 3.00")
+elif e == "ya":
+    print("Kamu Tidak lulus tepat waktu dikarenakan ada nilai E di raportmu")
+else:
+    print("ANJAY LULUS TEPAT WAKTU")
+
