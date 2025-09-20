@@ -1,20 +1,4 @@
-# print("Kalkulator Cringe")
-# angka1 = float(input("Masukkan angka pertama: "))
-# operator = input("Masukkan (+ - * /): ")
-# angka2 = float(input("Masukkan angka kedua: "))
 
-# if operator == "+":
-#     hasil = angka1 + angka2
-# elif operator == "-":
-#     hasil = angka1 - angka2
-# elif operator == "*":
-#     hasil = angka1 * angka2
-# elif operator == "/":
-#     hasil = angka1 / angka2
-# else:
-#     hasil = "Operator tidak valid"
-
-# print("Hasil:", hasil)
 
 
 print("Yuk cek apakah kamu mahasiswa tepat waktu!")
